@@ -13,10 +13,8 @@ public:
 	Name( Name const &src );
 
 // ------------------------------------------------------------------ destructor
-
 	~Name( void );
-
-// ---------------------------------------------------------- operator overloads
+// --------------------------------------------------- member operator overloads
 
 	Name &operator =( Name const &src );
 
