@@ -1,6 +1,9 @@
 
 #pragma once
 
+#ifndef NAME_HPP
+# define NAME_HPP
+
 class Name {
 
 public:
@@ -16,8 +19,10 @@ public:
 	~Name( void );
 // --------------------------------------------------- member operator overloads
 
-	Name &operator =( Name const &src );
+	Name &operator = ( Name const &src );
 
 private:
 
 };
+
+#endif

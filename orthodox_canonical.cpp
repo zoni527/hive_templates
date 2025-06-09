@@ -13,4 +13,4 @@ Name:: ~Name( void ) {}
 
 // ---------------------------------------------------------- operator overloads
 
-Name &Name:: operator =( Name const &src ) {}
+Name &Name:: operator = ( Name const &src ) {}
